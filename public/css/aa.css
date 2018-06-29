@@ -1,0 +1,42 @@
+/*body{
+    background-color: #011;
+}*/
+.flex-container{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    display: block;
+    margin: 10px;
+    border: 1em solid #00ffcc;
+    opacity: 0;
+}
+.one{
+    animation: box-appear 3s linear infinite;
+}
+.two{
+    animation: box-appear 3s linear .5s infinite;
+}
+.three{
+    animation: box-appear 3s linear 1s infinite;
+}
+@keyframes box-appear{
+    0%{
+        opacity: 0;
+    }
+    16%{
+        opacity: 1;
+    }
+    48%{
+        opacity: 1;
+    }
+    64%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
