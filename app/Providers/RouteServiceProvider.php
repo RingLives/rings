@@ -56,9 +56,9 @@ class RouteServiceProvider extends ServiceProvider
             'namespace' => $this->namespace,
         ], function ($router) {
             require base_path('routes/web.php');
-            require base_path('routes/authenticates/company/route.php');
-            require base_path('routes/authenticates/jobHolder/route.php');
-            require base_path('routes/home/route.php');
+            // require base_path('routes/authenticates/company/route.php');
+            // require base_path('routes/authenticates/jobHolder/route.php');
+            // require base_path('routes/home/route.php');
         });
     }
 
