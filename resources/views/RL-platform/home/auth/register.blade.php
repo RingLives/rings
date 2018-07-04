@@ -1,4 +1,4 @@
-@extends('home.layouts.app')
+@extends('RL-platform.home.layouts.app')
 
 @section('content')
 <div class="container">

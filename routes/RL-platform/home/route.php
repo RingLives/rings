@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/rl',function(){
-	return view('home.index');
+	return view('RL-platform.home.index');
 })->name('rl');
 
 Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
