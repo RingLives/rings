@@ -1,5 +1,5 @@
 @extends('RL-platform.home.layouts.app')
-@section('content')
+@section('pl-home')
 
   <!--==========================
     Intro Section
