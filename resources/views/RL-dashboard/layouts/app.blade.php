@@ -22,7 +22,7 @@
     <link href="{{ asset('assets/css/custom.min.css')}}" rel="stylesheet">
   </head>
 
-  <body class="nav-md main-boy">
+  <body class="nav-md footer_fixed">
     <div class="container body">
       <div class="main_container">
         <div class="col-md-3 left_col">
@@ -55,10 +55,23 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>@yield('page_title')</h3>
+              </div>
 
+              <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                    @yield('page_title_section')
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
           
           @yield('dashboard')
-
+        </div>
           
         </div>
         <!-- /page content -->

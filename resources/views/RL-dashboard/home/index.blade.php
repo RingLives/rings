@@ -1,4 +1,39 @@
 @extends('RL-dashboard.layouts.app')
 @section('dashboard')
-	
-@endsection
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+@stop
