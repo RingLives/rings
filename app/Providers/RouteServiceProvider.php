@@ -59,6 +59,8 @@ class RouteServiceProvider extends ServiceProvider
             require base_path('routes/RL-platform/authenticates/company/route.php');
             require base_path('routes/RL-platform/authenticates/jobHolder/route.php');
             require base_path('routes/RL-platform/authenticates/others/route.php');
+            require base_path('routes/RL-dashboard/admin/route.php');
+            require base_path('routes/RL-dashboard/route.php');
             require base_path('routes/RL-platform/home/route.php');
         });
     }

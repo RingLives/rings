@@ -1,0 +1,39 @@
+@extends('RL-dashboard.layouts.app')
+@section('dashboard')
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+	<div>sssss</div>
+@stop

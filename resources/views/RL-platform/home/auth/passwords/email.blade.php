@@ -1,6 +1,6 @@
 @extends('RL-platform.home.layouts.app')
 
-@section('content')
+@section('pl-home')
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -44,4 +44,4 @@
         </div>
     </div>
 </div>
-@endsection
+@stop

@@ -1,6 +1,6 @@
 @extends('RL-platform.home.layouts.app')
 
-@section('content')
+@section('pl-home')
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -8,14 +8,16 @@
                 <div class="panel-heading">Register</div>
 
                 <div class="panel-body">
-                    <form class="form-horizontal" method="POST" action="{{ route('register') }}">
+                    {!! Form::open(['route' => 'register', 'class' => 'form']) !!}
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                            <label for="name" class="col-md-4 control-label">Name</label>
+                            {!! Form::label('name', 'Name') !!}
+                            {!! Form::text('name', null, ['class' => 'form-control']) !!}
+                            <!-- <label for="name" class="col-md-4 control-label">Name</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus>
+                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus> -->
 
                                 @if ($errors->has('name'))
                                     <span class="help-block">
@@ -68,10 +70,10 @@
                                 </button>
                             </div>
                         </div>
-                    </form>
+                    {!! Form::close() !!}
                 </div>
             </div>
         </div>
     </div>
 </div>
-@endsection
+@stop
