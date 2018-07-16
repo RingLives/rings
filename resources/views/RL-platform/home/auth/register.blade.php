@@ -1,19 +1,20 @@
 @extends('RL-platform.home.layouts.app')
-
 @section('pl-home')
 <div class="container">
     <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-sm-8 col-sm-offset-4">
             <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+                <!-- <div class="panel-heading">Register</div> -->
 
                 <div class="panel-body">
                     {!! Form::open(['route' => 'register', 'class' => 'form']) !!}
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                            {!! Form::label('name', 'Name') !!}
-                            {!! Form::text('name', null, ['class' => 'form-control']) !!}
+                            {!! Form::label('name', 'Frist Name',['class' => 'control-label col-sm-6 col-md-4']) !!}
+                            <div class="col-sm-12 col-md-6">
+                                {!! Form::text('name',null,['class' => 'form-control']) !!}
+                            </div>
                             <!-- <label for="name" class="col-md-4 control-label">Name</label>
 
                             <div class="col-md-6">
